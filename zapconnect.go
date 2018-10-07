@@ -78,7 +78,8 @@ func main() {
 	} else if loadedConfig.ZapConnect.Localhost {
 		ipString = "127.0.0.1"
 	} else {
-		ipString = getPublicIP()
+		ipString = "" //manually type in the public ip address in "" as a temporary fix 
+		//getPublicIP()
 	}
 
 	addr := loadedConfig.RPCListeners[0]
