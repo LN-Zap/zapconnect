@@ -1,4 +1,4 @@
-# zapconnect 🌩
+# Deprecated - use lndconnect: https://github.com/LN-Zap/lndconnect
 
 Generate QRCode to connect iOS app to remote LND.
 
